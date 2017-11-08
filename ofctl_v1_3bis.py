@@ -12,6 +12,8 @@
 # implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
+# Deprecated matches "tp_src" and "tp_dst" are omitted
 
 import base64
 import logging
@@ -212,8 +214,6 @@ def to_match(dp, attrs):
                'nw_dst': ofctl_utils.to_match_ip,
                'ipv4_src': ofctl_utils.to_match_ip,
                'ipv4_dst': ofctl_utils.to_match_ip,
-               'tp_src': str_to_int,
-               'tp_dst': str_to_int,
                'tcp_src': str_to_int,
                'tcp_dst': str_to_int,
                'udp_src': str_to_int,
@@ -266,6 +266,8 @@ def to_match(dp, attrs):
             key = keys[key]
         if key in convert:
             value = convert[key](value)
+            # These keys should never match
+            """
             if key == 'tp_src' or key == 'tp_dst':
                 # TCP/UDP port
                 conv = {inet.IPPROTO_TCP: {'tp_src': 'tcp_src',
@@ -277,7 +279,8 @@ def to_match(dp, attrs):
                 kwargs[key] = value
             else:
                 # others
-                kwargs[key] = value
+            """
+            kwargs[key] = value
         else:
             LOG.error('Unknown match field: %s', key)
 
@@ -296,11 +299,7 @@ def match_to_str(ofmatch):
             'vlan_vid': 'dl_vlan',
             'ipv4_src': 'nw_src',
             'ipv4_dst': 'nw_dst',
-            'ip_proto': 'nw_proto',
-            'tcp_src': 'tp_src',
-            'tcp_dst': 'tp_dst',
-            'udp_src': 'tp_src',
-            'udp_dst': 'tp_dst'}
+            'ip_proto': 'nw_proto'}
 
     match = {}
 
