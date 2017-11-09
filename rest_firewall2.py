@@ -30,7 +30,7 @@ from ryu.lib import mac
 from ryu.lib import dpid as dpid_lib
 from ryu.lib import ofctl_v1_0
 from ryu.lib import ofctl_v1_2
-from ryu.lib import ofctl_v1_3bis
+from ryu.lib import ofctl_v1_3_3
 from ryu.lib.packet import packet
 from ryu.ofproto import ether
 from ryu.ofproto import inet
@@ -560,7 +560,7 @@ class Firewall(object):
 
     _OFCTL = {ofproto_v1_0.OFP_VERSION: ofctl_v1_0,
               ofproto_v1_2.OFP_VERSION: ofctl_v1_2,
-              ofproto_v1_3.OFP_VERSION: ofctl_v1_3bis}
+              ofproto_v1_3.OFP_VERSION: ofctl_v1_3_3}
 
     def __init__(self, dp):
         super(Firewall, self).__init__()
