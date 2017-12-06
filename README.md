@@ -10,8 +10,11 @@ This way, the traditional approach to protect the machines in a corporate LAN co
 In this Proof of Concept (PoC) I will demonstrate how easy and efficient is to employ another approach based on a distributed Firewall on every and each of the switches in the corporate LAN.
 
 The PoC is based on the following key components:
+
 1.- a set of OpenFLow compliant switches, which will be simulated with Open vSwitch
+
 2.- an OpenFlow controller with the firewall application running on it, which will be the Ryu controller and its available Firewall app
+
 3.- a web Frontend application, which will be developed in order to let an administrator manage the distributed firewall by means the REST API provided by Ryu
 
 (to be continued...)
