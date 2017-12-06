@@ -1,9 +1,5 @@
 Once Ryu installed:
 
-1.-  copy ofctl_v1_3_3.py into ryu/ryu/lib/
+1.- copy ofctl_v1_3_3.py into ryu/ryu/lib/
 2.- copy rest_firewall2.py into ryu/ryu/app/
 3.- cd ryu; pip install . --upgrade
-
-
- 
- 
