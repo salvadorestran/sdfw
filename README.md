@@ -1,7 +1,7 @@
 # sdfw
 A Distributed and Software-Defined Firewall based on OpenFlow
 
-As you will surely know, many of the last ransomware attack such as Wannacry and others are spread leveraging a vulnerability in SMB protocol, which can let an intruder inject shellcode into vulnerable Windows systems using the EternalBlue exploit.
+As you will surely know, many of the last ransomware attacks, such as Wannacry and others, spread leveraging a vulnerability in SMB protocol, which can let an intruder inject shellcode into vulnerable Windows systems using the EternalBlue exploit.
 
 The malware code is capable of searchig vulnerable machines by their IP address in the LAN and attempting exploitation via SMB port 445.
 
