@@ -15,6 +15,6 @@ The PoC is based on the following key components:
 
 2. an OpenFlow controller with the firewall application running on it, which will be the [*Ryu*](https://github.com/osrg/ryu) controller and its available Firewall app
 
-3. a web *Frontend* application, which will be developed in order to let an administrator manage the distributed firewall easily by means the REST API provided by Ryu
+3. a *Front-end* web application, which **will be developed** in order to let an administrator manage the distributed firewall easily by means the REST API provided by Ryu
 
 (to be continued...)
