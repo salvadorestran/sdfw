@@ -14,11 +14,11 @@ In this PoC it will be demonstrated how easy and efficient is to employ another 
 
 The PoC is based on the following key components:
 
-1. a set of OpenFlow compliant switches, which will be simulated with [*Open vSwitch*](http://openvswitch.org/)
+1. a set of OpenFlow compliant switches, which will be supplied by [*Open vSwitch*](http://openvswitch.org/)
 
 2. an OpenFlow controller with the firewall application running on it, which will be the [*Ryu*](https://github.com/osrg/ryu) controller and its available Firewall app
 
-3. a *Front-end* web application, which **will be developed** in order to let an administrator manage the distributed firewall easily by means the REST API provided by Ryu
+3. a *Front-end* web application, which **will be developed** in order to let an administrator manage the distributed firewall easily by means of the REST API provided by Ryu
 
 #### Table of Contents:
 
@@ -31,10 +31,10 @@ The PoC is based on the following key components:
 (to be done)
 
 ### **Installation**
-(to be done)
+See `INSTALL.md` for installation instructions and details.
 
 ### **Scenarios**
-(to be done)
+See `SCENARIOS.md` for simulation options and running instructions.
 
 ### **Use cases**
-(to be done)
+See `USE_CASES.md` for firewall set-up and test instructions.
