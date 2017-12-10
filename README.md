@@ -28,7 +28,14 @@ The PoC is based on the following key components:
 - [Use cases](https://github.com/salvadorestran/sdfw#use-cases)
 
 ### **Requirements**
-(to be done)
+
+- Any machine with x86 type processor (Intel/AMD/etc.) and Virtualization Technology enabled
+- At least 2GB RAM and 10GB of free Hard Disk space
+- Any Debian Linux installed such as Ubuntu 16.04.3 LTS or similar
+- VNX installed [(VNX Installation Guide)](http://web.dit.upm.es/vnxwiki/index.php/Vnx-install-ubuntu3)
+- [Mininet](http://mininet.org/download/) installed into a VM (recommended)
+- [*Ryu* SDN controller](https://github.com/osrg/ryu) installed
+- [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed in the same machine as *Ryu*
 
 ### **Installation**
 See [`INSTALL.md`](https://github.com/salvadorestran/sdfw/blob/master/INSTALL.md) for installation instructions and details.
@@ -38,4 +45,3 @@ See [`SCENARIOS.md`](https://github.com/salvadorestran/sdfw/blob/master/SCENARIO
 
 ### **Use cases**
 See [`USE_CASES.md`](https://github.com/salvadorestran/sdfw/blob/master/USE_CASES.md) for firewall set-up and test instructions.
-
