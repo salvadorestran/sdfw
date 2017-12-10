@@ -25,7 +25,7 @@ The PoC is based on the following key components:
 - [Requirements](https://github.com/salvadorestran/sdfw#requirements)
 - [Installation](https://github.com/salvadorestran/sdfw#installation)
 - [Scenarios](https://github.com/salvadorestran/sdfw#scenarios)
-- [Use cases](https://github.com/salvadorestran/sdfw#use%20cases)
+- [Use cases](https://github.com/salvadorestran/sdfw#use-cases)
 
 ### **Requirements**
 (to be done)
