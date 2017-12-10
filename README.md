@@ -35,7 +35,7 @@ The PoC is based on the following key components:
 - VNX installed [(VNX Installation Guide)](http://web.dit.upm.es/vnxwiki/index.php/Vnx-install-ubuntu3)
 - [Mininet](http://mininet.org/download/) installed into a VM (recommended)
 - [*Ryu* SDN controller](https://github.com/osrg/ryu) installed
-- [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed in the same machine as *Ryu*
+- [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed **in the same machine where *Ryu* will be ran**
 
 ### **Installation**
 See [`INSTALL.md`](https://github.com/salvadorestran/sdfw/blob/master/INSTALL.md) for installation instructions and details.
