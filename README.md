@@ -22,19 +22,20 @@ The PoC is based on the following key components:
 
 #### Table of Contents:
 
-- Requirements
-- Installation
-- Scenarios
-- Use cases
+- [Requirements](https://github.com/salvadorestran/sdfw#requirements)
+- [Installation](https://github.com/salvadorestran/sdfw#installation)
+- [Scenarios](https://github.com/salvadorestran/sdfw#scenarios)
+- [Use cases](https://github.com/salvadorestran/sdfw#use%20cases)
 
 ### **Requirements**
 (to be done)
 
 ### **Installation**
-See `INSTALL.md` for installation instructions and details.
+See [`INSTALL.md`](https://github.com/salvadorestran/sdfw/blob/master/INSTALL.md) for installation instructions and details.
 
 ### **Scenarios**
-See `SCENARIOS.md` for simulation options and running instructions.
+See [`SCENARIOS.md`](https://github.com/salvadorestran/sdfw/blob/master/SCENARIOS.md) for simulation options and running instructions.
 
 ### **Use cases**
-See `USE_CASES.md` for firewall set-up and test instructions.
+See [`USE_CASES.md`](https://github.com/salvadorestran/sdfw/blob/master/USE_CASES.md) for firewall set-up and test instructions.
+
