@@ -1,2 +1,2 @@
 ## **Installation instructions and details**
-(to de done)
+(to be done)
