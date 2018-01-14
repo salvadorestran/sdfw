@@ -2,7 +2,7 @@ Once Ryu installed:
 
 1.- copy ofctl_v1_3_3.py into ryu/ryu/lib/
 2.- copy rest_firewall2.py into ryu/ryu/app/
-3.- cd ryu; pip install . --upgrade
+3.- cd ryu; sudo pip install . --upgrade
 
 Once nodejs and npm installed:
 1.- cd /usr/bin
