@@ -5,8 +5,8 @@ Once Ryu installed:
 3.- cd ryu; sudo pip install . --upgrade
 
 Once nodejs and npm installed:
-1.- cd /usr/bin
-2.- sudo ln -s nodejs node
-3.- cd #; cd app
-4.- npm install express
-5.- npm install body-parser
+
+1.- cd /usr/bin; sudo ln -s nodejs node
+2.- cd #; cd app
+3.- npm install express
+4.- npm install body-parser
