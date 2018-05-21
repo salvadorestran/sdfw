@@ -104,7 +104,8 @@ body {
   list-style-type: decimal; }
 
 .reveal ul {
-  list-style-type: disc; }
+  list-style-type: disc;
+  font-size: 30px; }
 
 .reveal ul ul {
   list-style-type: square; }
