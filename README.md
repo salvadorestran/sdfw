@@ -14,9 +14,9 @@ In this PoC it will be demonstrated how easy and efficient is to employ another 
 
 The PoC is based on the following key components:
 
-1. a set of OpenFlow compliant switches, which will be supplied by [*Open vSwitch*](http://openvswitch.org/)
+1. OpenFlow 1.3 compliant switches, which will be supplied by [*Open vSwitch*](http://openvswitch.org/).
 
-2. an OpenFlow controller with the firewall application running on it, which will be the [*Ryu*](https://github.com/osrg/ryu) controller and its available Firewall app
+2. [*FAUCET*](https://github.com/salvadorestran), an OpenFlow controller for multi table OpenFlow 1.3 switches, that implements layer 2 switching, VLANs, ACLs, and layer 3 IPv4 and IPv6 routing.
 
 3. a *Front-end* web application, which **will be developed** in order to let an administrator manage the distributed firewall easily by means of the REST API provided by Ryu
 
