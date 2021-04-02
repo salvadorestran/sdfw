@@ -18,7 +18,7 @@ The PoC is based on the following key components:
 
 2. [*FAUCET*](https://github.com/salvadorestran), an OpenFlow controller for multi table OpenFlow 1.3 switches, that implements layer 2 switching, VLANs, ACLs, and layer 3 IPv4 and IPv6 routing.
 
-3. a *Front-end* web application, which **will be developed** in order to let an administrator manage the distributed firewall easily by means of the REST API provided by Ryu
+3. [*Mininet*](http://mininet.org/), a tool that creates a virtual network over Linux, running real kernel, switch and application code, on a single machine (VM, cloud or native), in seconds.
 
 #### Table of Contents:
 
