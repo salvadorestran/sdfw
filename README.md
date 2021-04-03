@@ -32,8 +32,8 @@ The PoC is based on the following key components:
 - Any machine with x86 type processor (Intel/AMD/etc.) and Virtualization Technology enabled.
 - At least 2GB RAM and 10GB of free Hard Disk space.
 - Any Debian Linux installed such as Ubuntu 20.04 LTS or higher.
-- [Mininet](http://mininet.org/download/) installed into a VM (recommended)
-- [*FAUCET* SDN controller](https://github.com/osrg/ryu) installed **in the same machine where *Mininet* is deployed**
+- [*Mininet*](http://mininet.org/download/) installed into a VM (recommended).
+- [*FAUCET* SDN controller](https://docs.faucet.nz/en/latest/installation.html) installed **in the same machine** where *Mininet* is deployed.
 
 ### **Installation**
 See [`INSTALL.md`](https://github.com/salvadorestran/sdfw/blob/master/INSTALL.md) for installation instructions and details.
